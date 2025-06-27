@@ -2,5 +2,18 @@
   "name": "npm-deep-dive-study",
   "version": "1.0.0",
   "author": "Minsug CHae",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.4.0",
+    "husky": "^9.1.7"
+  }
 }
