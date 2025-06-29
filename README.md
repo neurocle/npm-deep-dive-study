@@ -1,6 +1,6 @@
 <div align=center>
 
-<h1> 🤿 npm deep dive </h1>
+<h1> npm deep dive 🤿 </h1>
 
 ![npm deep dive book](images/title.png)
 
