@@ -6,14 +6,14 @@
 
 ### Chapter 02 package.json과 npm 파헤치기
 
-| Item |                Discussion                 | Date  | Author |
-| :--: | :---------------------------------------: | :---- | :----- |
-|  01  |       [package.json 톺아보기](TBD)        | TBD   | TBD    |
-|  02  |      [dependencies란 무엇일까?](TBD)      | TBD   | TBD    |
-|  03  |         [npm의 주요 명령어](TBD)          | TBD   | TBD    |
-|  04  | [npm install을 실행하면 벌어지는 일](TBD) | TBD   | TBD    |
-|  05  |      [node_modules는 무엇일까?](TBD)      | TBD   | TBD    |
-|  06  |           [bin 필드와 npx](TBD)           | 2 TBD | TBD    |
+| Item |                Discussion                 | Date | Author |
+| :--: | :---------------------------------------: | :--- | :----- |
+|  01  |       [package.json 톺아보기](TBD)        | TBD  | TBD    |
+|  02  |      [dependencies란 무엇일까?](TBD)      | TBD  | TBD    |
+|  03  |         [npm의 주요 명령어](TBD)          | TBD  | TBD    |
+|  04  | [npm install을 실행하면 벌어지는 일](TBD) | TBD  | TBD    |
+|  05  |      [node_modules는 무엇일까?](TBD)      | TBD  | TBD    |
+|  06  |           [bin 필드와 npx](TBD)           | TBD  | TBD    |
 
 ### Chapter 03 npm의 대항마 yarn과 pnpm
 
@@ -51,6 +51,8 @@
 |  02  |   [웹서비스 번들의 표준, 웹팩](TBD)   | TBD  | TBD    |
 |  03  |  [패키지 번들의 선두주자, 롤업](TBD)  | TBD  | TBD    |
 |  04  |  [ 번들 도구의 신흥 강자, 비트](TBD)  | TBD  | TBD    |
+
+</div>
 
 ### ⚡️Members
 
