@@ -1,8 +1,8 @@
 pre-commit:
   commands:
     lint-names:
-      run: node lint-names.js
+      run: node scripts/lint-names.js
       fail_text: "File/folder naming conventions not followed. Please check the README for naming rules."
     korean-spell-check:
-      run: node korean-spell-check.js
+      run: node scripts/korean-spell-check.js
       fail_text: "Korean spelling errors found. Please fix the typos before committing."
