@@ -12,6 +12,7 @@
     }
   },
   "devDependencies": {
+    "@evilmartians/lefthook": "^1.12.2",
     "commitizen": "^4.3.1",
     "cz-customizable": "^7.4.0"
   }

@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    lint-names:
+      run: node lint-names.js
+      fail_text: "File/folder naming conventions not followed. Please check the README for naming rules."
