@@ -65,30 +65,6 @@ const contextualTypos = [
   },
 ];
 
-// Spacing rules for Korean
-const spacingRules = [
-  {
-    pattern: /([가-힣])([A-Za-z])/g,
-    replacement: "$1 $2",
-    description: "한글과 영문 사이에 공백 필요",
-  },
-  {
-    pattern: /([A-Za-z])([가-힣])/g,
-    replacement: "$1 $2",
-    description: "영문과 한글 사이에 공백 필요",
-  },
-  {
-    pattern: /([가-힣])([0-9])/g,
-    replacement: "$1 $2",
-    description: "한글과 숫자 사이에 공백 필요",
-  },
-  {
-    pattern: /([0-9])([가-힣])/g,
-    replacement: "$1 $2",
-    description: "숫자와 한글 사이에 공백 필요",
-  },
-];
-
 const errors = [];
 const warnings = [];
 
@@ -119,18 +95,6 @@ function checkKoreanTypos(content, filePath) {
             line.match(rule.pattern)[0]
           }" → "${rule.replacement}" 권장`
         );
-      }
-    });
-
-    // Check spacing rules (only as warnings)
-    spacingRules.forEach((rule) => {
-      const matches = line.match(rule.pattern);
-      if (matches) {
-        matches.forEach((match) => {
-          warnings.push(
-            `⚠️  ${filePath}:${lineIndex + 1} - ${rule.description}: "${match}"`
-          );
-        });
       }
     });
 
