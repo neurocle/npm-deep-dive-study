@@ -125,3 +125,11 @@
 | UMD         | 다양한 환경 호환성 확보                       | 코드 복잡, 불필요한 조건문 증가                   |
 | SystemJS    | 다양한 모듈 형식 지원, 동적 로드 가능         | 표준 아님, 복잡성과 성능 부담                     |
 | ESModule    | 표준 지원, 브라우저/서버 모두 사용 가능       | 구형 브라우저 호환성 문제(트랜스파일 필요)        |
+
+## [JavaScript 번들러로 본 조선시대 붕당의 이해](https://wormwlrm.github.io/2020/08/12/History-of-JavaScript-Modules-and-Bundlers.html)
+
+<div align=center>
+
+![node modules meme](../../images/ch_4_1_item_1.png)
+
+</div>
