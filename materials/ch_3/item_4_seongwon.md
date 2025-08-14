@@ -160,25 +160,25 @@
 
   catalogs:
     core:
-    "next": ^15.2.3
-    "react": ^19.0.0
-    "react-dom": ^19.0.0
-    "@types/node": ^22.0.0
-    "@types/react": ^19.0.0
-    "@types/react-dom": ^19.0.0
-    "typescript": ^5.0.0
+      "next": ^15.2.3
+      "react": ^19.0.0
+      "react-dom": ^19.0.0
+      "@types/node": ^22.0.0
+      "@types/react": ^19.0.0
+      "@types/react-dom": ^19.0.0
+      "typescript": ^5.0.0
     style:
-    "@tailwindcss/postcss": ^4.0.0
-    "tailwindcss": ^4.0.0
-    "motion": ^11.0.0
-    "next-themes": "^0.4.4"
+      "@tailwindcss/postcss": ^4.0.0
+      "tailwindcss": ^4.0.0
+      "motion": ^11.0.0
+      "next-themes": "^0.4.4"
     util:
-    "date-fns": ^4.0.0
+      "date-fns": ^4.0.0
     vercel:
-    "@vercel/analytics": "^1.5.0"
-    "@vercel/speed-insights": "^1.2.0"
+      "@vercel/analytics": "^1.5.0"
+      "@vercel/speed-insights": "^1.2.0"
     data-fetch:
-    "ky": "^1.7.5"
+      "ky": "^1.7.5"
   ```
 
 - **pnpm**의 워크스페이스는 `.pnpm`이라는 글로벌 스토어를 활용해 의존성을 설치하고, `node_modules`의 실제 내용을 하드 링크로 관리한다.
