@@ -200,6 +200,8 @@
 
 ## 3. 벤치마크 테스트
 
+![Benchmarks](/images/ch_3_4_item_1.png)
+
 ### 1. Full Cold
 
 - 완전히 새로운 머신에서 프로젝트를 처음 클론하고 설치하는 과정 (CI 환경 등)
@@ -213,7 +215,7 @@
 
 ### 3. 캐시와 락 파일 모두가 존재하는 경우
 
-- **pnpm** > **yarn berry** > **yarn classic** > **npm**
+- **pnpm** >= **yarn berry** > **yarn classic** > **npm**
 - **pnpm**과 **yarn**의 패키지 다운로드 작업이 생략된 결과
 
 ### 4. 결론
