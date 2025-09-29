@@ -26,31 +26,32 @@
 
 ### Chapter 04 CommonJS와 ESModule
 
-| Item |                           Discussion                            | Date    | Author |
-| :--: | :-------------------------------------------------------------: | :------ | :----- |
-|  01  | [자바스크립트 모듈화의 역사](/materials/ch_4/item_1_sunhwan.md) | 25.8.14 | 박선환 |
-|  02  |     [CommonJS란 무엇일까?](/materials/ch_4/item_2_jieun.md)     | 25.8.14 | 송지은 |
-|  03  |                  [ESModule이란 무엇일까?](TBD)                  | TBD     | TBD    |
-|  04  |   [Node.js는 어떻게 node_modules에서 패키지를 찾아갈까?](TBD)   | TBD     | TBD    |
-|  05  |          [CommonJS와 ESModule, 무엇이 정답일까?](TBD)           | TBD     | TBD    |
+| Item |                                        Discussion                                        | Date    | Author |
+| :--: | :--------------------------------------------------------------------------------------: | :------ | :----- |
+|  01  |             [자바스크립트 모듈화의 역사](/materials/ch_4/item_1_sunhwan.md)              | 25.8.14 | 박선환 |
+|  02  |                 [CommonJS란 무엇일까?](/materials/ch_4/item_2_jieun.md)                  | 25.8.14 | 송지은 |
+|  03  |                [ESModule이란 무엇일까?](/materials/ch_4/item_3_jieun.md)                 | 25.8.21 | 송지은 |
+|  04  | [Node.js는 어떻게 node_modules에서 패키지를 찾아갈까?](/materials/ch_4/item_4_minsug.md) | 25.8.21 | 채민석 |
+|  05  |       [CommonJS와 ESModule, 무엇이 정답일까?](/materials/ch_4/item_5_seongwon.md)        | 25.8.21 | 조성원 |
 
 ### Chapter 05 트랜스파일과 폴리필
 
-| Item |                  Discussion                   | Date | Author |
-| :--: | :-------------------------------------------: | :--- | :----- |
-|  01  |    [트랜스파일을 도와주는 도구, 바벨](TBD)    | TBD  | TBD    |
-|  02  |     [폴리필을 도와주는 도구 core-js](TBD)     | TBD  | TBD    |
-|  03  | [최선의 폴리필과 트랜스파일은 무엇일까?](TBD) | TBD  | TBD    |
-|  04  |         [바벨과 core-js의 대안](TBD)          | TBD  | TBD    |
+| Item |                                 Discussion                                  | Date    | Author |
+| :--: | :-------------------------------------------------------------------------: | :------ | :----- |
+|  01  |    [트랜스파일을 도와주는 도구, 바벨](/materials/ch_5/item_1_sunhwan.md)    | 25.8.21 | 박선환 |
+|  02  |    [폴리필을 도와주는 도구 core-js](/materials/ch_5/item_2_seongwon.md)     | 25.9.18 | 조성원 |
+|  03  | [최선의 폴리필과 트랜스파일은 무엇일까?](/materials/ch_5/item_3_sunhwan.md) | 25.9.18 | 박선환 |
+|  04  |          [바벨과 core-js의 대안](/materials/ch_5/item_4_minsug.md)          | 25.9.18 | 채민석 |
 
 ### Chapter 06 자바스크립트 번들 도구 살펴보기
 
-| Item |              Discussion               | Date | Author |
-| :--: | :-----------------------------------: | :--- | :----- |
-|  01  | [번들링은 무엇이고 왜 필요할까?](TBD) | TBD  | TBD    |
-|  02  |   [웹서비스 번들의 표준, 웹팩](TBD)   | TBD  | TBD    |
-|  03  |  [패키지 번들의 선두주자, 롤업](TBD)  | TBD  | TBD    |
-|  04  |  [ 번들 도구의 신흥 강자, 비트](TBD)  | TBD  | TBD    |
+|   Item    |                            Discussion                             | Date    | Author |
+| :-------: | :---------------------------------------------------------------: | :------ | :----- |
+|    01     | [번들링은 무엇이고 왜 필요할까?](/materials/ch_6/item_1_jieun.md) | 25.9.18 | 송지은 |
+|    02     |   [웹서비스 번들의 표준, 웹팩](/materials/ch_6/item_2_jieun.md)   | 25.9.25 | 송지은 |
+|    03     | [패키지 번들의 선두주자, 롤업](/materials/ch_6/item_3_minsug.md)  | 25.9.25 | 채민석 |
+|    04     | [ 번들 도구의 신흥 강자, 비트](/materials/ch_6/item_4_sunhwan.md) | 25.9.25 | 박선환 |
+| 특별 챕터 | [코드 스플리팅과 트리 셰이킹](/materials/etc/item_1_seongwon.md)  | 25.9.25 | 조성원 |
 
 </div>
 
